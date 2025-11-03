@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Weather — Route Style</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styel.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="container nav-row">
+    <a href="index.html" class="logo">
+  <img src="https://routeweather.netlify.app/images/logo.png" alt="Logo" />
+  <span class="fs-6">Weather</span>
+</a>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Live Cameras</a></li>
+        <li><a href="#">Photos</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO / SEARCH -->
+  <header class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1 class="hero-title">Weather around the world</h1>
+
+      <div class="search-large">
+        <div class="search-inner">
+          <input id="searchInput" type="text" autocomplete="off" placeholder="Find yor Location"  />
+          <button id="searchBtn">Find</button>
+        </div>
+        <ul id="suggestions" class="suggestions-list"></ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- WEATHER CARDS -->
+  <main>
+    <div class="container weather-wrap">
+      <div id="weatherResult" class="weather-cards"></div>
+    </div>
+  </main>
+
+<footer>
+  <div class="container footer-row">
+    <p>© 2025 RouteWeather — All rights reserved</p>
+    <div class="socials">
+      <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></i></a>
+      <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+</footer>
+
+  <script src="js/java.js"></script>
+</body>
+</html>
+
